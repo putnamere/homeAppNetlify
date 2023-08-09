@@ -6,6 +6,7 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
 //    res.sendFile(__dirname + '/page/index.html')
+    console.log(__dirname)
     res.send("is it working?")
 })
 
