@@ -5,7 +5,8 @@ const app = express()
 const router = express.Router()
 
 router.get('/', (req, res) => {
-    res.sendFile(__dirname + '/page/index.html')
+//    res.sendFile(__dirname + '/page/index.html')
+    res.send("is it working?")
 })
 
 router.get('/index.js', (req, res) => {
