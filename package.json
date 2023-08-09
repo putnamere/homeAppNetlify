@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
