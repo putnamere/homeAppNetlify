@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build src"
+    "start": "NODE_ENV=development netlify-lambda serve src",
+    "build": "NODE_ENV=production netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
